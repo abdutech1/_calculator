@@ -61,7 +61,7 @@ const App = () => {
 
   return (
     <div className='mx-auto d-flex justify-content-center align-items-center flex-column mt-5'>
-      <div className='bg-black d-flex justify-content-center align-items-center mt-5 flex-column'>
+      <div className='bg-black d-flex justify-content-center overflow-hidden align-items-center mt-5 flex-column'>
         <div className='text-white w-100 pe-1 fs-5 fw-semibold' style={{ height: '50px' }}>
           <span id='display' className='d-flex justify-content-end text-warning'>
             {val || evaluated || 0}
